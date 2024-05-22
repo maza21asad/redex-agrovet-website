@@ -1,0 +1,64 @@
+.container {
+    --_animationStartAfter: 200px;
+    --_animationDistance: 300px;
+
+    max-width: 140rem;
+    padding: .8rem 6rem;
+    display: flex;
+    z-index: 1000;
+    top: 0;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #e9f1f8;
+    backdrop-filter: blur(10px);
+
+    animation: stickyNav linear forwards;
+    animation-timeline: view();
+    animation-range-start: calc(100vh + var(--_animationStartAfter));
+    animation-range-end: calc(100vh + var(--_animationStartAfter) + var(--_animationDistance));
+
+    
+}
+
+.logo {
+    width: 82px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-svg {
+    width: 128px;
+    height: 72px;
+    vertical-align: middle;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-link {
+    color: #2d73ac;
+    font-weight: 600; 
+    text-decoration: none; 
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    /* text-shadow: 2px 4px 8px rgba(129, 129, 129, 0.5); */
+}
+
+.nav-link:hover {
+    color: #113b5e; 
+    /* background-color: whitesmoke; */
+}
+
+@keyframes stickyNav {
+    100% {
+        background-color: #c2d8ce;
+        box-shadow: 0 0 0.75rem hsl(0, 0%, 0% / 0.3);
+        /* box-shadow: 2px 4px 12px rgba(121,168,203, 0.3); */
+    }
+}
