@@ -5,63 +5,59 @@ function Home() {
   return (
     <div className="home">
       {" "}
-      This is the home page.
+      <h4>Welcome to Redex Agrovet</h4> <br />
       <p>
+        Redex Agrovet, a veterinary medicine production company licensed under
+        the Ministry of Health, provides high-quality veterinary pharmaceuticals
+        across Bangladesh. With products available in around 40 districts, Redex
+        Agrovet supports animal health and welfare nationwide.
         <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Amet dictum sit amet
-        justo donec enim. Donec enim diam vulputate ut pharetra sit amet
-        aliquam. Urna et pharetra pharetra massa massa ultricies mi. Vitae
-        auctor eu augue ut. Ultrices in iaculis nunc sed augue lacus viverra
-        vitae. Sapien nec sagittis aliquam malesuada. Enim diam vulputate ut
-        pharetra sit amet aliquam id diam. Morbi tristique senectus et netus et
-        malesuada fames ac. Commodo sed egestas egestas fringilla phasellus
-        faucibus scelerisque eleifend donec. Vitae ultricies leo integer
-        malesuada. Accumsan lacus vel facilisis volutpat est velit egestas dui.
-        Velit euismod in pellentesque massa placerat duis ultricies lacus sed. A
-        condimentum vitae sapien pellentesque. Lacus luctus accumsan tortor
-        posuere ac. Justo laoreet sit amet cursus sit amet dictum sit. Etiam sit
-        amet nisl purus in mollis.
       </p>{" "}
+      <br /> <br />
+      <p>Dealership Opportunities</p>
       <br />
       <p>
-        Senectus et netus et malesuada. At elementum eu facilisis sed odio.
-        Lacus viverra vitae congue eu consequat ac felis. Tellus pellentesque eu
-        tincidunt tortor. Nisi porta lorem mollis aliquam ut porttitor leo a
-        diam. Egestas erat imperdiet sed euismod nisi porta. Volutpat est velit
-        egestas dui id ornare arcu. Lectus nulla at volutpat diam ut. Praesent
-        elementum facilisis leo vel fringilla est ullamcorper eget. Mi in nulla
-        posuere sollicitudin aliquam ultrices. Leo urna molestie at elementum eu
-        facilisis. Fames ac turpis egestas maecenas pharetra convallis.
+        We are currently looking for dealers for selling and distributing our
+        products to local vendors. If you are interested in becoming a part of
+        our network, please contact us for more information.
       </p>
+      <br /> <br />
+      <p>Why Choose Us?</p>
       <br />
       <p>
-        Ante in nibh mauris cursus mattis molestie a iaculis. Enim nulla aliquet
-        porttitor lacus. Pellentesque elit eget gravida cum sociis natoque
-        penatibus et. Quis vel eros donec ac odio tempor. Amet justo donec enim
-        diam vulputate ut. Neque viverra justo nec ultrices dui sapien. Rutrum
-        tellus pellentesque eu tincidunt tortor aliquam. Neque vitae tempus quam
-        pellentesque nec nam aliquam sem et. Ipsum consequat nisl vel pretium
-        lectus quam. Non pulvinar neque laoreet suspendisse interdum consectetur
-        libero. Sodales ut etiam sit amet nisl purus in. Pretium aenean pharetra
-        magna ac placerat. Sit amet venenatis urna cursus eget nunc scelerisque.
-        Eu turpis egestas pretium aenean pharetra. Morbi tristique senectus et
-        netus et malesuada fames. In iaculis nunc sed augue lacus viverra vitae.
+        * Quality Assurance: Our products are manufactured in a state-of-the-art
+        facility, adhering to the highest international standards to ensure
+        safety and efficacy. <tr />
+        * Wide Reach: Available in around 40 districts, our veterinary medicines
+        support animal health nationwide, making a positive impact on the lives
+        of animals and their owners. <tr />* Comprehensive Product Range: From
+        antibiotics and antiparasitics to vitamins and supplements, we offer a
+        diverse range of products tailored to meet the needs of various animal
+        species.
       </p>
+      <br /> <br />
+      <p>Our Mission</p>
       <br />
       <p>
-        Dignissim suspendisse in est ante in. Urna porttitor rhoncus dolor purus
-        non enim. Scelerisque in dictum non consectetur a erat nam. Quis
-        eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Massa
-        sapien faucibus et molestie ac feugiat sed lectus. Pulvinar neque
-        laoreet suspendisse interdum consectetur. Ante in nibh mauris cursus. Id
-        venenatis a condimentum vitae sapien pellentesque habitant morbi. Sed
-        adipiscing diam donec adipiscing tristique. Mus mauris vitae ultricies
-        leo integer. Tellus elementum sagittis vitae et. Ornare suspendisse sed
-        nisi lacus sed viverra tellus. Congue mauris rhoncus aenean vel elit
-        scelerisque mauris pellentesque pulvinar. Sed arcu non odio euismod
-        lacinia at. Gravida rutrum quisque non tellus orci ac auctor. Sit amet
-        nisl purus in mollis nunc. Diam in arcu cursus euismod quis viverra.
+        Our mission is to support the veterinary community, livestock farmers,
+        and pet owners by providing reliable solutions for animal health. We
+        believe that healthy animals lead to healthy communities, and we are
+        committed to making a difference through our products and services.
+      </p>
+      <br /> <br />
+      <p>Get to Know Us</p>
+      <br />
+      <p>
+        At Redex Agrovet, we are more than just a pharmaceutical company. We are
+        a team of passionate professionals dedicated to advancing animal health
+        through innovation, research, and a commitment to excellence. Explore
+        our website to learn more about our products, our story, and our impact
+        on the community.
+      </p>
+      <br /> <br />
+      <p>
+        Thank you for visiting Redex Agrovet. Together, we can ensure a
+        healthier future for all animals.
       </p>
     </div>
   );

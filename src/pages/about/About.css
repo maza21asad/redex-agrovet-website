@@ -1,0 +1,12 @@
+.about {
+    padding: 6rem 10rem;
+    display: block;
+    font-size: larger;
+    text-align: justify;
+}
+
+@media (max-width: 870px) {
+    .about {
+        padding: 7rem 2.5rem;
+    }
+}
