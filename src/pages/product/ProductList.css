@@ -1,0 +1,15 @@
+/* src/pages/product/ProductList.css */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 16px;
+  }
+  
+  @media (max-width: 480px) {
+    .product-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

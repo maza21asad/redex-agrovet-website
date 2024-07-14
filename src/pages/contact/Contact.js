@@ -47,14 +47,6 @@ function contact() {
             placeholder="Your message"
             // onChange={handleInputChange}
           />
-          {/* <button
-            type="submit"
-            value="Send"
-            className="submitBtn"
-            // disabled={!isFormValid}
-          >
-            SUBMIT
-          </button> */}
         </form>
         <button
           type="submit"
